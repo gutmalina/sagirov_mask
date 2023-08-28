@@ -1,7 +1,7 @@
 # Тестовое задание на вакансию Фронтенд разработчик (Sagirov)
 
 <p padding="0" align="center">~~~~~~~~~~</p>
-<a  href="https://gutmalina.github.io/green-api/" target="_blank" align="center"><img src="./images/videogift.gif" width="100%" alt="Демо"></a>
+<a  href="https://gutmalina.github.io/sagirov_mask/" target="_blank" align="center"><img src="./src/images/videogift.gif" width="100%" alt="Демо"></a>
 <p padding="0" align="center">~~~~~~~~~~</p>
 
 ### Стэк:
@@ -22,4 +22,4 @@
 * Сделать адаптивную верстку для планшета и телефона. (Да, в PSD нет этих версий, Вы должны сами расставить элементы интерфейса так, чтобы все выглядело гармонично).
 
 ### Ссылки:
-* :mag_right: [Открыть проект](https://gutmalina.github.io/green-api/)
+* :mag_right: [Открыть проект](https://gutmalina.github.io/sagirov_mask/)
