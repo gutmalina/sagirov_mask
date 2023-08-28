@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sagirov_mask/static/css/main.da3d6874.css",
+    "main.js": "/sagirov_mask/static/js/main.46bc2626.js",
+    "index.html": "/sagirov_mask/index.html",
+    "main.da3d6874.css.map": "/sagirov_mask/static/css/main.da3d6874.css.map",
+    "main.46bc2626.js.map": "/sagirov_mask/static/js/main.46bc2626.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3d6874.css",
+    "static/js/main.46bc2626.js"
+  ]
+}
