@@ -1,0 +1,13 @@
+.wrapper_svg {
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+  width: 100%;
+}
+
+.container_img {
+  height: 653px;
+  display: block;
+  width: 100%;
+}
+

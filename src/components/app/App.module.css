@@ -1,0 +1,5 @@
+.border {
+  width: 100%;
+  border-bottom: 1px solid var(--color-secondary-grey);
+  margin-bottom: clamp(35px, 3vw, 50px);
+}

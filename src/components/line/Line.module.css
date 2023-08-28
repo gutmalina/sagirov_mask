@@ -1,0 +1,37 @@
+.wrapper {
+  position: absolute;
+  right: 50%;
+  bottom: 194px;
+  display: flex;
+}
+
+.group {
+  display: flex;
+}
+
+.round {
+  width: 3px;
+  height: 3px;
+  border: 1px solid var(--color-primary-grey);
+  border-radius: 50%;
+}
+
+.line_primary,
+.line_secondary {
+  height: 1px;
+  background: var(--color-primary-grey);
+}
+
+.line_primary {
+  width: clamp(150px, 17vw, 325px);
+}
+
+.line_secondary {
+  width: 98px;
+  transform: translateX(-15px) rotate(39deg) translateY(-41px);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary-grey) 160%
+  );
+}

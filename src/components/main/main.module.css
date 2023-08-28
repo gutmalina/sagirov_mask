@@ -1,0 +1,80 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.group_text {
+  margin-bottom: 82px;
+}
+
+.title {
+  font-size: clamp(36px, 6vw, 58px);
+  line-height: 114%;
+  letter-spacing: 3.8px;
+  font-weight: 400;
+  background: linear-gradient(
+    45deg,
+    var(--color-primary-white),
+    rgb(219, 41, 11) 130%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -2;
+  position: relative;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: clamp(14px, 3vw, 25px);
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.group_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    margin: 0 clamp(20px, 6vw, 160px);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container {
+    padding-top: clamp(5px, 1vw, 50px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .group_cards {
+    grid-template-columns: repeat(2, minmax(120px, 180px));
+    position: inherit;
+    width: max-content;
+  }
+}
+
+@media screen and (min-width: 1460px) {
+  .wrapper {
+    margin: 0 clamp(160px, 10vw, 368px);
+  }
+
+  .container {
+    padding-top: clamp(15px, 3vw, 50px);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    margin: 0 340px 0 368px;
+  }
+}

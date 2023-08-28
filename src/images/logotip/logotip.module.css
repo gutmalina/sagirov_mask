@@ -1,0 +1,26 @@
+.wrapper_svg {
+  position: relative;
+  z-index: 2;
+  width: clamp(110px, 14vw, 263px);
+  height: clamp(20px, 3vw, 50px);
+  box-sizing: border-box;
+}
+
+.container_img {
+  width: 100%;
+  height: auto;
+}
+
+.layer_color {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 970px) {
+  .layer_color {
+    top: 0;
+  }
+}

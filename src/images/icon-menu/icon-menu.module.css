@@ -1,0 +1,23 @@
+.wrapper_svg {
+  width: 30px;
+  height: 30px;
+}
+
+.container_img {
+  animation: rotate_rigth 1s linear infinite;
+}
+
+@keyframes rotate_rigth {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper_svg {
+    display: none;
+  }
+}
